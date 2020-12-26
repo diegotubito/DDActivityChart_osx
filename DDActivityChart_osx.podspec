@@ -1,43 +1,17 @@
-#
-# Be sure to run `pod lib lint DDActivityChart_osx.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
-
-Pod::Spec.new do |s|
-  s.name             = 'DDActivityChart_osx'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of DDActivityChart_osx.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/diegodavid@icloud.com/DDActivityChart_osx'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'diegodavid@icloud.com' => 'diegodavid@icloud.com' }
-  s.source           = { :git => 'https://github.com/diegodavid@icloud.com/DDActivityChart_osx.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.platform = :osx
-  s.osx.deployment_target = "10.10"
-
-  s.source_files = 'DDActivityChart_osx/Classes/**/*'
-
-  # s.resource_bundles = {
-  #   'DDActivityChart_osx' => ['DDActivityChart_osx/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'Cocoa'
-  # s.dependency 'AFNetworking', '~> 2.3'
+Pod::Spec.new do |spec|
+  spec.name         = 'DDActivityChart_osx'
+  spec.version      = '0.1.0'
+  spec.platform     = :osx
+  spec.osx.deployment_target = '11'
+  spec.summary      = "Activity Chart MacOSX platform"
+  spec.description  = "Show customer activity register graphically"
+  spec.homepage     = "https://github.com/diegotubito/DDActivityChart_osx"
+  spec.license      = "APACHE"
+  spec.author       = { "David Diego Gómez" => "diegodavid@icloud.com" }
+  spec.platform     = :macos, "11"
+  spec.source       = { :git => "https://github.com/diegotubito/DDActivityChart_osx.git", :tag => "0.1.0" }
+  #spec.source_files  = "DDActivityChart_osx", "Classes/**/*.{h,m}"
+  spec.source_files = 'DDActivityChart_osx/Classes/**/*'
+  spec.swift_version = "5.0"
+  spec.license      = 'Apache 2.0'
 end

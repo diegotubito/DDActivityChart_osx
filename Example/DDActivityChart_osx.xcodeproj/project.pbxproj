@@ -31,9 +31,9 @@
 		0D83C524C59DE8041EEBB44C /* Pods-DDActivityChart_osx_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDActivityChart_osx_Example.debug.xcconfig"; path = "Target Support Files/Pods-DDActivityChart_osx_Example/Pods-DDActivityChart_osx_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0DCDA378A5C1FDB6C3E75EA6 /* Pods-DDActivityChart_osx_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDActivityChart_osx_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DDActivityChart_osx_Tests/Pods-DDActivityChart_osx_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		299B18A7BB770DBABA7EA34A /* Pods_DDActivityChart_osx_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDActivityChart_osx_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		32918FE9A43C971B8AB032D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		5BD0A7C5D04C11E376FFB2A4 /* DDActivityChart_osx.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DDActivityChart_osx.podspec; path = ../DDActivityChart_osx.podspec; sourceTree = "<group>"; };
-		89CC9BA7DE4F60A565FAE4A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		32918FE9A43C971B8AB032D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5BD0A7C5D04C11E376FFB2A4 /* DDActivityChart_osx.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DDActivityChart_osx.podspec; path = ../DDActivityChart_osx.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		89CC9BA7DE4F60A565FAE4A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		943A1FC83FB190A9F06CA783 /* Pods-DDActivityChart_osx_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDActivityChart_osx_Tests.release.xcconfig"; path = "Target Support Files/Pods-DDActivityChart_osx_Tests/Pods-DDActivityChart_osx_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B9C148EBE50B207DD6DD0979 /* Pods-DDActivityChart_osx_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDActivityChart_osx_Example.release.xcconfig"; path = "Target Support Files/Pods-DDActivityChart_osx_Example/Pods-DDActivityChart_osx_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ED83F67820348A760038D96B /* DDActivityChart_osx_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDActivityChart_osx_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,7 +76,6 @@
 				0DCDA378A5C1FDB6C3E75EA6 /* Pods-DDActivityChart_osx_Tests.debug.xcconfig */,
 				943A1FC83FB190A9F06CA783 /* Pods-DDActivityChart_osx_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

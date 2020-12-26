@@ -1,0 +1,16 @@
+PODS:
+  - DDActivityChart_osx (0.1.0)
+
+DEPENDENCIES:
+  - DDActivityChart_osx (from `../`)
+
+EXTERNAL SOURCES:
+  DDActivityChart_osx:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDActivityChart_osx: fc9e10c32668f8e30d1b12ba71c59aad3046db72
+
+PODFILE CHECKSUM: 90e29829195f488675a69622885c17ff274e6130
+
+COCOAPODS: 1.10.0

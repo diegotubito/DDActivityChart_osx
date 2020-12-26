@@ -1,0 +1,6 @@
+framework module Pods_DDActivityChart_osx_Example {
+  umbrella header "Pods-DDActivityChart_osx_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
