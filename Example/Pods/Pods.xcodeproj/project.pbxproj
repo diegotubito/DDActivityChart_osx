@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11AFC529259797A600460FD8 /* ActivityChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AFC528259797A600460FD8 /* ActivityChartView.swift */; };
 		2ACF1CB585041BE81A4B75313AB1064C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
 		2D848A5E7779C4323FA0F25FC1F1EF63 /* DDActivityChart_osx-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D11C92C18093CEF1726EB80C38447DF /* DDActivityChart_osx-dummy.m */; };
 		4F41D3A5CDD80F3BBC1D5854A23989C3 /* DDActivityChart_osx-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67B0A061C3F1026824CD7617094EBA82 /* DDActivityChart_osx-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,21 +38,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00D5BF2752A85AFABE5242FB8FBEB0F2 /* Pods_DDActivityChart_osx_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DDActivityChart_osx_Tests.framework; path = "Pods-DDActivityChart_osx_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00D5BF2752A85AFABE5242FB8FBEB0F2 /* Pods_DDActivityChart_osx_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDActivityChart_osx_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0496486D05FEEC12D5D6EBE3A36A40A1 /* Pods-DDActivityChart_osx_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DDActivityChart_osx_Tests.modulemap"; sourceTree = "<group>"; };
 		04CA471884AC40FBAAC4CB40136EFDF1 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DDActivityChart_osx/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		0D60CD736C8D75246B92D8EBB3ABF7EF /* Pods-DDActivityChart_osx_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDActivityChart_osx_Tests-Info.plist"; sourceTree = "<group>"; };
+		11AFC528259797A600460FD8 /* ActivityChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityChartView.swift; sourceTree = "<group>"; };
 		13E484BF431DE8B1D9B1EB71C411A099 /* Pods-DDActivityChart_osx_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DDActivityChart_osx_Example-frameworks.sh"; sourceTree = "<group>"; };
-		179702B77CEDEEFD243B55088135CDF1 /* DDActivityChart_osx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DDActivityChart_osx.framework; path = DDActivityChart_osx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		179702B77CEDEEFD243B55088135CDF1 /* DDActivityChart_osx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DDActivityChart_osx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A7D92B42B5772299369056338F90AEC /* Pods-DDActivityChart_osx_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDActivityChart_osx_Example-Info.plist"; sourceTree = "<group>"; };
 		3AD795734C998D93D26457E9784081F3 /* DDActivityChart_osx-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DDActivityChart_osx-Info.plist"; sourceTree = "<group>"; };
 		3F843CE81AEC78B60EAF9BB00C226D8E /* DDActivityChart_osx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDActivityChart_osx.debug.xcconfig; sourceTree = "<group>"; };
 		448470F846EFCEB2A5E959528DBFCB23 /* Pods-DDActivityChart_osx_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DDActivityChart_osx_Example.modulemap"; sourceTree = "<group>"; };
 		480DCE2DF3CEDD4B6AB587B75603672B /* DDActivityChart_osx-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDActivityChart_osx-prefix.pch"; sourceTree = "<group>"; };
 		4BBE8193124A22D16550132CB994C879 /* DDActivityChart_osx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DDActivityChart_osx.release.xcconfig; sourceTree = "<group>"; };
-		59A6E64CD2BB6C0C732735E9FCED5162 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		59A6E64CD2BB6C0C732735E9FCED5162 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		67B0A061C3F1026824CD7617094EBA82 /* DDActivityChart_osx-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DDActivityChart_osx-umbrella.h"; sourceTree = "<group>"; };
-		6B37BE25FA7245CC8368A69D282323FA /* DDActivityChart_osx.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DDActivityChart_osx.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6B37BE25FA7245CC8368A69D282323FA /* DDActivityChart_osx.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DDActivityChart_osx.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6C7EE74D8C4AF349C1168573A135AFE8 /* Pods-DDActivityChart_osx_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DDActivityChart_osx_Tests-dummy.m"; sourceTree = "<group>"; };
 		6D07A03C96DC14AB62260D82DCE87675 /* Pods-DDActivityChart_osx_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DDActivityChart_osx_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6D11C92C18093CEF1726EB80C38447DF /* DDActivityChart_osx-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DDActivityChart_osx-dummy.m"; sourceTree = "<group>"; };
@@ -60,14 +62,14 @@
 		8187FB17C17396969F4618BA2F1ED936 /* Pods-DDActivityChart_osx_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDActivityChart_osx_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8A66BB16289EE59C200E6ECE5041CAD4 /* Pods-DDActivityChart_osx_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DDActivityChart_osx_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		95EDCA9EEC9B6A53FC81D38F130131F4 /* Pods-DDActivityChart_osx_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DDActivityChart_osx_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B42C7362F93A20B7621AF0E5487E08E2 /* Pods-DDActivityChart_osx_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DDActivityChart_osx_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		C3B85FF0F43861518930B7902CB27F8D /* DDActivityChart_osx.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DDActivityChart_osx.modulemap; sourceTree = "<group>"; };
-		D6B3FE76D4508256C4BEF2F071AE6321 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D6B3FE76D4508256C4BEF2F071AE6321 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DED150958DE6A4302B8F0B8179D56219 /* Pods-DDActivityChart_osx_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDActivityChart_osx_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E9A815A7A7356B8287CD6C44DCEA0F85 /* Pods-DDActivityChart_osx_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DDActivityChart_osx_Example-umbrella.h"; sourceTree = "<group>"; };
-		EECCE05546CA4F73134D3FB8BE821C0D /* Pods_DDActivityChart_osx_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DDActivityChart_osx_Example.framework; path = "Pods-DDActivityChart_osx_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECCE05546CA4F73134D3FB8BE821C0D /* Pods_DDActivityChart_osx_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DDActivityChart_osx_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF5B3A7B1F66D61D668758E101917574 /* Pods-DDActivityChart_osx_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDActivityChart_osx_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F346C06A293FE21AE5235FAB5DF29CD0 /* Pods-DDActivityChart_osx_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DDActivityChart_osx_Example-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,6 +160,7 @@
 				04CA471884AC40FBAAC4CB40136EFDF1 /* ReplaceMe.swift */,
 				4247516E3C0B92DAEAD1A4E7AD283CD1 /* Pod */,
 				245C44AB1F51BBBBF3E9104FE4D8ECA3 /* Support Files */,
+				11AFC528259797A600460FD8 /* ActivityChartView.swift */,
 			);
 			name = DDActivityChart_osx;
 			path = ../..;
@@ -384,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D848A5E7779C4323FA0F25FC1F1EF63 /* DDActivityChart_osx-dummy.m in Sources */,
+				11AFC529259797A600460FD8 /* ActivityChartView.swift in Sources */,
 				D7FE90F10ED2A326FD878AD2C5C4A2EF /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -627,8 +631,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

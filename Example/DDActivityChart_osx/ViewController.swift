@@ -7,12 +7,14 @@
 //
 
 import Cocoa
+import DDActivityChart_osx
 
 class ViewController: NSViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-
+    let activityChart = ActivityChartView(frame: self.view.frame)
+    self.view.addSubview(activityChart)
     // Do any additional setup after loading the view.
   }
 
