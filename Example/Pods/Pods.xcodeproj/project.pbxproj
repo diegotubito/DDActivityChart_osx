@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		11AFC55925979E6100460FD8 /* ActivityChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AFC55825979E6100460FD8 /* ActivityChartView.swift */; };
+		11AFC56925979F7000460FD8 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AFC56825979F7000460FD8 /* SecondView.swift */; };
+		11AFC56E25979F8600460FD8 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AFC56D25979F8600460FD8 /* ThirdView.swift */; };
 		2ACF1CB585041BE81A4B75313AB1064C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
 		2D848A5E7779C4323FA0F25FC1F1EF63 /* DDActivityChart_osx-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D11C92C18093CEF1726EB80C38447DF /* DDActivityChart_osx-dummy.m */; };
 		4F41D3A5CDD80F3BBC1D5854A23989C3 /* DDActivityChart_osx-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67B0A061C3F1026824CD7617094EBA82 /* DDActivityChart_osx-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -43,6 +45,8 @@
 		04CA471884AC40FBAAC4CB40136EFDF1 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = DDActivityChart_osx/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		0D60CD736C8D75246B92D8EBB3ABF7EF /* Pods-DDActivityChart_osx_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDActivityChart_osx_Tests-Info.plist"; sourceTree = "<group>"; };
 		11AFC55825979E6100460FD8 /* ActivityChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActivityChartView.swift; path = DDActivityChart_osx/Classes/ActivityChartView.swift; sourceTree = "<group>"; };
+		11AFC56825979F7000460FD8 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		11AFC56D25979F8600460FD8 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 		13E484BF431DE8B1D9B1EB71C411A099 /* Pods-DDActivityChart_osx_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DDActivityChart_osx_Example-frameworks.sh"; sourceTree = "<group>"; };
 		179702B77CEDEEFD243B55088135CDF1 /* DDActivityChart_osx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DDActivityChart_osx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A7D92B42B5772299369056338F90AEC /* Pods-DDActivityChart_osx_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDActivityChart_osx_Example-Info.plist"; sourceTree = "<group>"; };
@@ -140,6 +144,7 @@
 				6B37BE25FA7245CC8368A69D282323FA /* DDActivityChart_osx.podspec */,
 				59A6E64CD2BB6C0C732735E9FCED5162 /* LICENSE */,
 				D6B3FE76D4508256C4BEF2F071AE6321 /* README.md */,
+				11AFC56D25979F8600460FD8 /* ThirdView.swift */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 		7577E4EC147B0BA2BADD8243C2280C29 /* DDActivityChart_osx */ = {
 			isa = PBXGroup;
 			children = (
+				11AFC56825979F7000460FD8 /* SecondView.swift */,
 				11AFC55825979E6100460FD8 /* ActivityChartView.swift */,
 				04CA471884AC40FBAAC4CB40136EFDF1 /* ReplaceMe.swift */,
 				4247516E3C0B92DAEAD1A4E7AD283CD1 /* Pod */,
@@ -387,7 +393,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D848A5E7779C4323FA0F25FC1F1EF63 /* DDActivityChart_osx-dummy.m in Sources */,
+				11AFC56E25979F8600460FD8 /* ThirdView.swift in Sources */,
 				11AFC55925979E6100460FD8 /* ActivityChartView.swift in Sources */,
+				11AFC56925979F7000460FD8 /* SecondView.swift in Sources */,
 				D7FE90F10ED2A326FD878AD2C5C4A2EF /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
