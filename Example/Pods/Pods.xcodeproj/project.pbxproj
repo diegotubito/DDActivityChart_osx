@@ -157,10 +157,10 @@
 		7577E4EC147B0BA2BADD8243C2280C29 /* DDActivityChart_osx */ = {
 			isa = PBXGroup;
 			children = (
+				11AFC528259797A600460FD8 /* ActivityChartView.swift */,
 				04CA471884AC40FBAAC4CB40136EFDF1 /* ReplaceMe.swift */,
 				4247516E3C0B92DAEAD1A4E7AD283CD1 /* Pod */,
 				245C44AB1F51BBBBF3E9104FE4D8ECA3 /* Support Files */,
-				11AFC528259797A600460FD8 /* ActivityChartView.swift */,
 			);
 			name = DDActivityChart_osx;
 			path = ../..;
