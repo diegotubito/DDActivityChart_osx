@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DDActivityChart_osx_Example' do
+  pod 'DDActivityChart_osx', :path => '../'
+
+  target 'DDActivityChart_osx_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
