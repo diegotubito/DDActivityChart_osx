@@ -10,7 +10,6 @@ Pod::Spec.new do |spec|
   spec.author       = { "David Diego Gómez" => "diegodavid@icloud.com" }
   spec.platform     = :macos, "11"
   spec.source       = { :git => "https://github.com/diegotubito/DDActivityChart_osx.git", :tag => "0.1.0" }
-  #spec.source_files  = "DDActivityChart_osx", "Classes/**/*.{h,m}"
   spec.source_files = 'DDActivityChart_osx', 'DDActivityChart_osx/Classes/**/*'
   spec.swift_version = "5.0"
   spec.license      = 'Apache 2.0'
